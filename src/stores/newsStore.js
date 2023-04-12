@@ -10,19 +10,21 @@ export const useNewsStore = defineStore('news', () => {
         {
             url: '/news/',
             children: [
+
+
                 {
                     number: '0',
                     thumImg: `${upperPath}images/news/news02.jpg`,
-                    site: '연합뉴스',
-                    title: '삼표, 일본보다 62% 향상된 ‘자기치유 콘크리트’ 기술 개발',
-                    date: '2023.03.15',
+                    site: 'NEWS1뉴스',
+                    title: '류승원 삼화기업 대표, 순천시에 마스크 2천매 기부',
+                    date: ' 2020-02-26',
                 },
                 {
                     number: '1',
                     thumImg: `${upperPath}images/news/news01.jpg`,
-                    site: '부산일보',
-                    title: '현대 시멘트도 못넘은 고대 로마 초강력 콘크리트 비밀 풀었다',
-                    date: '2023.01.09',
+                    site: '내외뉴스통신',
+                    title: '박옥순 삼화기업 전 대표, 순천시에 5천만원 쾌척',
+                    date: '2022-05-19',
                 },
             ]
         }
@@ -31,21 +33,23 @@ export const useNewsStore = defineStore('news', () => {
     //상세페이지
     const newsGroup = ref([
 
+
+
         {
             number: '0',
-            site: 'AP신문',
-            title: ' 삼표, 일본보다 62% 향상된 ‘자기치유 콘크리트’ 기술 개발',
-            date: '2023.03.15',
+            site: 'NEWS1뉴스',
+            title: ' 류승원 삼화기업 대표, 순천시에 마스크 2천매 기부',
+            date: ' 2020-02-26',
             thumImg: `${upperPath}images/news/news02.jpg`,
-            linkTo: 'https://www.apnews.kr/news/articleView.html?idxno=3008791',
+            linkTo: 'https://www.news1.kr/articles/?3854287',
         },
         {
             number: '1',
-            site: '연합뉴스',
-            title: ' 현대 시멘트도 못넘은 고대 로마 초강력 콘크리트 비밀 풀었다',
-            date: '2023.01.09',
+            site: '내외뉴스통신',
+            title: ' 박옥순 삼화기업 전 대표, 순천시에 5천만원 쾌척',
+            date: '2022.05.19',
             thumImg: `${upperPath}images/news/news01.jpg`,
-            linkTo: 'https://www.yna.co.kr/view/AKR20230109075400009',
+            linkTo: 'http://www.nbnnews.co.kr/news/articleView.html?idxno=677338',
         },
     ])
 
