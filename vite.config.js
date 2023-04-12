@@ -10,7 +10,9 @@ export default defineConfig({
             '@': path.resolve(__dirname, './src'),
         }
     },
-    build: {},
+    build: {
+        outDir: './'
+    },
     base: '/samhwa_temp/',
     
     historyApiFallback: true,
