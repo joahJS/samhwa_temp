@@ -12,7 +12,7 @@ export default defineConfig({
         }
     },
     build: {},
-    base: '/temp/',
+    base: '/samhwa_temp/',
     
     historyApiFallback: true,
 })
