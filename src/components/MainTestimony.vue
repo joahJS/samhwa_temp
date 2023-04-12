@@ -1,7 +1,7 @@
 <template>
     <div id="mainTestimony">
         <h1 class="page-title testimony-section-title">
-            Showcase
+            시공사진
         </h1>
 
         <swiper id="testimonyContainer" v-bind="testimonySliderSettings">
