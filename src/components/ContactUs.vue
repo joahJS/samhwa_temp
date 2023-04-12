@@ -19,8 +19,9 @@
     }
 
     .btn-hover {
-        @apply w-72 rounded-3xl font-bold mx-auto py-2.5 px-3;
+        @apply rounded-3xl font-bold mx-auto py-2.5 px-3;
 
+        width: 15rem;
         background-color: rgba(var(--white), .25);
         color: rgba(var(--white), 1);
         font-size: var(--font16);

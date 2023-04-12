@@ -3,7 +3,7 @@
     <div class="web-common-inner">
         <ul id="breadCrumbs">
             <li onclick="location.href='/'">Home</li>
-            <li id="currentCr">{{ getPath[3] }}</li> <!--주소에 있는 배열 4번째를 불러오는 것 (0부터 시작)-->
+            <li id="currentCr">{{ whatBread }}</li> <!--주소에 있는 배열 4번째를 불러오는 것 (0부터 시작)-->
         </ul>
         
 
@@ -13,10 +13,33 @@
 </template> <!-- Template Ends -->
 
 <script setup>
-    // import { useRoute } from 'vue-router'
 
-    // const getParams = useRoute()
     const getPath = window.location.href.split('/');
+    let whatBread = ref()
+
+
+
+    if ( getPath[3] === 'outline' ) {
+        whatBread = '개요'
+    } else if ( getPath[3] === 'history' ) {
+        whatBread = '연혁'
+    } else if ( getPath[3] === 'certificate' ) {
+        whatBread = '특허/인증'
+    } else if ( getPath[3] === 'path' ) {
+        whatBread = '오시는 길'
+    } else if ( getPath[3] === 'cates' ) {
+        whatBread = '제품목록 '
+    } else if ( getPath[3] === '/cates/' ) {
+        whatBread = '제품 상세'
+    } else if ( getPath[3] === 'notice' || getPath[3] === 'notice_writing' ) {
+        whatBread = '공지사항'
+    } else if ( getPath[3] === 'news' || getPath[3] === '/news_in/' ) {
+        whatBread = '보도자료'
+    } else if ( getPath[3] === 'datas' || getPath[3] === 'data' ) {
+        whatBread = '자료실'
+    } else if ( getPath[3] === 'contact' ) {
+        whatBread = 'Contact Us'
+    } 
     
 </script> <!-- Logic Ends -->
 
