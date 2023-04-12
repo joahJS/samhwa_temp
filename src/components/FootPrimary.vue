@@ -1,14 +1,14 @@
 <template>
     <footer id="footPrimary">
         <div class="container inner-box">
-            <div>
+            <div class="text-center">
                 <img src="../assets/images/logo_b.png" class="w-16 mx-auto mb-1">
                 <span class="font-bold">SAMHWA</span>
             </div>
             <div class="self-center leading-4">
                 <p>전남 순천시 서면 구랑실재길 133(구상리 245)</p>
-                <p><span class="font-bold">TEL</span> : 061) 755- 6848</p>
-                <p><span class="font-bold">FAX</span> : 061) 755- 6849</p>
+                <p><span class="font-bold">TEL</span> : 061 - 755 - 6848</p>
+                <p><span class="font-bold">FAX</span> : 061 - 755 - 6849</p>
                 <br>
                 <p class="copyright">© {{ copyYear }} by 소나무정보기술, All rights reverved. </p>
             </div>
