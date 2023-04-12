@@ -37,10 +37,10 @@
                         <div>
                             <p data-path-map-subtitles>PUBLIC TRANSPORT</p>
                             <div data-path-public-route v-for="publicItem in sectionItem.publicTr">
-                                <div>
+                                <!-- <div>
                                     <p data-path-map-subtexts>지하철</p>
                                     <p data-path-public-texts v-for="subways in publicItem.subway">{{ subways.subwItem }}</p>
-                                </div>
+                                </div> -->
                                 <div>
                                     <p data-path-map-subtexts>버스</p>
                                     <p data-path-public-texts v-for="busways in publicItem.bus">{{ busways.busItem }}</p>

@@ -11,12 +11,40 @@ export const useCatesStore = defineStore('cates', () => {
         {
             url: '/cate01/',
             children: [
+
                 {
                     number: '0',
-                    thumImg: `${upperPath}images/cate/img03.jpg`,
-                    title: '고무링삽입형 VR관',
-                    subTitle: '서브타이틀인데 있을수도 길수도 짧을수도있음 변수에 대응',
-                }
+                    thumImg: `${upperPath}images/cate/block4.jpg`,
+                    title: '스팟 워싱블록(인조 화강블록)',
+                    subTitle: '간결하면서도 도시적, 세련된 이미지',
+                },
+                {
+                    number: '1',
+                    thumImg: `${upperPath}images/cate/block2.jpg`,
+                    title: 'l2, l3형 블록',
+                    subTitle: '강도가 높고, 시공이 간단함',
+                },
+                {
+                    number: '2',
+                    thumImg: `${upperPath}images/cate/block3.jpg`,
+                    title: 'U형블록',
+                    subTitle: '결합식으로 뒤틀림이 없으며, 강도가 높고, 시공이 간단함',
+                },
+                {
+                    number: '3',
+                    thumImg: `${upperPath}images/cate/block1.jpg`,
+                    title: '잔디블록',
+                    subTitle: '취급에 용이하고, 잔디번식이 용이하다',
+                },
+                {
+                    number: '4',
+                    thumImg: `${upperPath}images/cate/block5.jpg`,
+                    title: '조경 경계블록',
+                    subTitle: '곡선을 만들수 있고 가격이 저렴하다',
+                },
+                
+                
+
             ]
         }
     ])
@@ -27,17 +55,67 @@ export const useCatesStore = defineStore('cates', () => {
 
         {
             number: '0',
-            site: 'AP신문',
-            title: ' 고무링삽입형 VR관',
-            date: '2023.03.15',
-            thumImg: `${upperPath}images/cate/img03.jpg`,
-            floor: `${upperPath}images/cate/floor01.jpg`,
-            table: `${upperPath}images/cate/table.png`,
+            title: ' 스팟 워싱블록(인조 화강블록)',
+            thumImg: `${upperPath}images/cate/block4.jpg`,
+            floor: `${upperPath}`,
+            table: `${upperPath}images/cate/samhwa1.jpg`,
             textAll: [
-                    {texts: '- 지상으로 돌출되는 부분을 최소화'},
-                    {texts: '- 자전거전용도로 설치를 위한 공간 확보.'},
-                    {texts: '- 인도의 공간 확보.'},
-                    {texts: '- 소켓부에 매입된 고무링은 관로의 수밀에 대하여 공학적으로 설계되어 여러 단계로 최대한 누수를 방지하며 불가피한 각도조정에도 수밀성이 우수하며, 관 부설 후 접합부에 별도의 몰탈마감이 필요하지 않는다.'},
+                    {texts: '- 다양한 천연골재로 성형한 후 물과 에어로 워싱 처리'},
+                    {texts: '- 자연석과 같은 질감으로 시공 시 자연ㅊ핀화적 풍경연출 가능.'},
+                    {texts: '- 미끄럼 방지, 투수 기능을 가짐으로 보행자 안전을 도모.'},
+                    {texts: '- 공원 산책로, 주차장, 휴게소, 자전거도로, 보도, 차도 등 사용.'},
+                ]
+        },
+        {
+            number: '1',
+            title: ' l2, l3형 블록',
+            thumImg: `${upperPath}images/cate/block2.jpg`,
+            floor: `${upperPath}`,
+            table: `${upperPath}images/cate/samhwa2.jpg`,
+            textAll: [
+                    {texts: '- 다양한 천연골재로 성형한 후 물과 에어로 워싱 처리'},
+                    {texts: '- 자연석과 같은 질감으로 시공 시 자연ㅊ핀화적 풍경연출 가능.'},
+                    {texts: '- 미끄럼 방지, 투수 기능을 가짐으로 보행자 안전을 도모.'},
+                    {texts: '- 공원 산책로, 주차장, 휴게소, 자전거도로, 보도, 차도 등 사용.'},
+                ]
+        },
+        {
+            number: '2',
+            title: ' U형블록',
+            thumImg: `${upperPath}images/cate/block3.jpg`,
+            floor: `${upperPath}`,
+            table: `${upperPath}images/cate/samhwa2.jpg`,
+            textAll: [
+                    {texts: '- 다양한 천연골재로 성형한 후 물과 에어로 워싱 처리'},
+                    {texts: '- 자연석과 같은 질감으로 시공 시 자연ㅊ핀화적 풍경연출 가능.'},
+                    {texts: '- 미끄럼 방지, 투수 기능을 가짐으로 보행자 안전을 도모.'},
+                    {texts: '- 공원 산책로, 주차장, 휴게소, 자전거도로, 보도, 차도 등 사용.'},
+                ]
+        },
+        {
+            number: '3',
+            title: ' 잔디블록',
+            thumImg: `${upperPath}images/cate/block1.jpg`,
+            floor: `${upperPath}`,
+            table: `${upperPath}images/cate/samhwa3.jpg`,
+            textAll: [
+                    {texts: '- 다양한 천연골재로 성형한 후 물과 에어로 워싱 처리'},
+                    {texts: '- 자연석과 같은 질감으로 시공 시 자연ㅊ핀화적 풍경연출 가능.'},
+                    {texts: '- 미끄럼 방지, 투수 기능을 가짐으로 보행자 안전을 도모.'},
+                    {texts: '- 공원 산책로, 주차장, 휴게소, 자전거도로, 보도, 차도 등 사용.'},
+                ]
+        },
+        {
+            number: '4',
+            title: ' 조경 경계블록',
+            thumImg: `${upperPath}images/cate/block5.jpg`,
+            floor: `${upperPath}`,
+            table: `${upperPath}images/cate/samhwa3.jpg`,
+            textAll: [
+                    {texts: '- 다양한 천연골재로 성형한 후 물과 에어로 워싱 처리'},
+                    {texts: '- 자연석과 같은 질감으로 시공 시 자연ㅊ핀화적 풍경연출 가능.'},
+                    {texts: '- 미끄럼 방지, 투수 기능을 가짐으로 보행자 안전을 도모.'},
+                    {texts: '- 공원 산책로, 주차장, 휴게소, 자전거도로, 보도, 차도 등 사용.'},
                 ]
         },
 

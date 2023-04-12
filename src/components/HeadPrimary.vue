@@ -4,7 +4,7 @@
             <h1 id="mainLogo">
                 <router-link to="/">
                     <img src="../assets/images/logo_w.png" alt="mainLogo">
-                    CONCRETE </router-link>
+                    SAMHWA </router-link>
             </h1>
 
             <div id="totalSearchbar">
@@ -76,7 +76,7 @@
             linkTo : '',
             navTitle: '제품소개',
             childrens: [
-                {subTo: '/cates', subName: '제품01'},
+                {subTo: '/cates', subName: 'Products'},
 
             ],
             isVisible: false

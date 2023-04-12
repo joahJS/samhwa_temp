@@ -6,7 +6,7 @@
         <p v-if="thisRoute === 'certificate'">특허/인증</p>
         <p v-if="thisRoute === 'path'">오시는 길</p>
         <!-- cate -->
-        <p v-if="thisRoute === 'cates'">제품 01</p>
+        <p v-if="thisRoute === 'cates'">Products</p>
         <p v-if="thisRoute === '/cates/' + thisRouteDetail">제품 상세</p>
         <!-- customers -->
         <p v-if="thisRoute === 'notice'">공지사항</p>

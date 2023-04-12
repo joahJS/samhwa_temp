@@ -13,12 +13,12 @@
                     </article>                   
                 </article>
             </div>
-            <div class="my-5 w-full">
+            <!-- <div class="my-5 w-full">
                 <h4 class="font-bold my-10">제품도면</h4>
                 <img :src="cateGroup[getId].floor" class="w-full">
-            </div>
+            </div> -->
             <div class="my-5">
-                <h4 class="font-bold my-10">설계실무요령</h4>
+                <h4 class="font-bold my-10"></h4>
                 <img :src="cateGroup[getId].table" class="mx-auto">
             </div>
 

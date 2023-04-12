@@ -4,14 +4,14 @@
 
         <div id="mainIntro">
             <h1 class="page-title">
-                콘크리트 회사만의 자부심
+                삼화기업만의 자부심
             </h1>
 
             <div id="mainIntroGrid">
                 <div class="main-intro-block">
                     <div class="main-intro-block-catchphrase">
-                        <p class="catchphrase-main">품질에 대한 신뢰로 다져온 100년</p>
-                        <p class="catchphrase-sub">콘크리트 회사의 최고 자산은 고객의 믿음입니다.</p>
+                        <p class="catchphrase-main">제품에 대한 확고한 자부심</p>
+                        <p class="catchphrase-sub">고객의 신뢰를 기업의 이념으로 알고 언제나 최고의 제품만을 생산합니다.</p>
                     </div>
                 </div>
 
@@ -19,11 +19,11 @@
                     <div class="main-intro-block-description">
                         <dl class="main-intro-block-overlay">
                             <dt class="main-intro-block-title">
-                                투습성 시멘트를 이용한 자연 친화적 공법
+                                간결하면서 도식적인 세련된 이미지
                             </dt>
 
                             <dd class="main-intro-block-subtext">
-                                온습도에 의한 인장이 적은 특수 소재를 개발하여 물이 투과해도 내구성에 전혀 영향을 주지 않습니다.
+                                미끄럼 방지, 투수기능을 가짐으로 보행자의 안전을 도모하고, 자연석 같은 질감으로 자연친화적 풍경연출이 가능합니다.
                             </dd>
                         </dl>
                     </div>
@@ -37,11 +37,11 @@
                     <div class="main-intro-block-description">
                         <dl class="main-intro-block-overlay">
                             <dt class="main-intro-block-title">
-                                모듈러 블록으로 단기간 속성 구축
+                                다양한 색조합으로 공간특성을 살린 디자인
                             </dt>
 
                             <dd class="main-intro-block-subtext">
-                                정밀 제작된 모듈러 블록을 이용하여 마치 조립하듯 건축이 가능합니다.
+                                색상조합이 가능하여 미관, 조경용으로도 사용되며, 강도가 놓아서 동결융해가 안된다.
                             </dd>
                         </dl>
                     </div>
@@ -55,11 +55,11 @@
                     <div class="main-intro-block-description">
                         <dl class="main-intro-block-overlay">
                             <dt class="main-intro-block-title">
-                                충격 흡수력이 좋은 속건성 런웨이 콘크리트
+                                아름다운 색조합으로 미관 및 조경 디자인 연출
                             </dt>
 
                             <dd class="main-intro-block-subtext">
-                                충격을 흡수하고 습기를 빠르게 빨아들여 건조시키는, 보행에 최적화된 소재입니다.
+                                결합식 인터록킹 블록으로 제작되어 뒤틀림이 적고, 시공이 간단하며 강도가 높아거 동결융해가 안된다.
                             </dd>
                         </dl>
                     </div>
@@ -73,11 +73,11 @@
                     <div class="main-intro-block-description">
                         <dl class="main-intro-block-overlay">
                             <dt class="main-intro-block-title">
-                                3D 프린팅 맞춤형 블록 제작
+                                블럭 조합으로 컨센 공간의 연출 가능
                             </dt>
 
                             <dd class="main-intro-block-subtext">
-                                광물 및 금속 프린팅이 가능한 특수 3D 프린터로 블록의 형태 및 소재를 원하는 대로 제작할 수 있습니다.
+                                잔디번식이 용이하며, 블럭으로 주차선 표시가 가능하다
                             </dd>
                         </dl>
                     </div>
