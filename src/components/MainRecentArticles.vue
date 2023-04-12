@@ -107,8 +107,6 @@ const { newsList } = storeToRefs(newsStore)
             background-color: rgba(var(--main), .1);
 
             > .recent-article-item-title {
-                color: rgb(var(--main));
-                font-weight: 900;
             }
         }
     }

@@ -13,7 +13,7 @@ export const useNoticeStore = defineStore('notice', () => {
 
                 {
                     bindIndex:'0',
-                    number: '2',
+                    number: '1',
                     title: '홈페이지 단장!!',
                     date: '2023.03.01',
                 },
