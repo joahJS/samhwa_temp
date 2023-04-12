@@ -3,9 +3,9 @@
     <div id="" class="web-common-inner common-main-section">
         <BreadCrumbs />
 
-        <h1 class="page-title">제품 01</h1>
+        <h1 class="page-title">Products</h1>
         <section v-for="cate in cateList" id="cate01-list-box">
-            <router-link v-for="subItem in cate.children.slice().reverse()" :to="{name: 'Cates_in', params: {id: subItem.number}}"><!-- 반복구간 시작  // reverse()역순가져오기-->
+            <router-link v-for="subItem in cate.children" :to="{name: 'Cates_in', params: {id: subItem.number}}"><!-- 반복구간 시작  // reverse()역순가져오기-->
                 <div class="cate01-list-line">
                     <img data-cate01-img :src="subItem.thumImg">
                     <h4 data-cate01-title>{{ subItem.title }} </h4>

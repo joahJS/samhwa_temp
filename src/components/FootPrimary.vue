@@ -3,11 +3,12 @@
         <div class="container inner-box">
             <div>
                 <img src="../assets/images/logo_b.png" class="w-16 mx-auto mb-1">
-                <span class="font-bold">소나무정보기술</span>
+                <span class="font-bold">SAMHWA</span>
             </div>
             <div class="self-center leading-4">
-                <p>부산광역시 사상구 대동로303 부산디지털밸리 1203호</p>
-                <p><span class="font-bold">TEL</span> : 051-317-0034</p>
+                <p>전남 순천시 서면 구랑실재길 133(구상리 245)</p>
+                <p><span class="font-bold">TEL</span> : 061) 755- 6848</p>
+                <p><span class="font-bold">FAX</span> : 061) 755- 6849</p>
                 <br>
                 <p class="copyright">© {{ copyYear }} by 소나무정보기술, All rights reverved. </p>
             </div>

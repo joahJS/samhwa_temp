@@ -122,38 +122,56 @@ export const useIntrosStore = defineStore('intros', () => {
     const certGroup = ref([
         {
             certIndex: 0,
-            cate: '특허인증',
-            certTtitle: '하수도용 콘크리트 맨홀 블록',
-            imgUrl: `${upperPath}images/cert_sample_01.jpg`,
-            certNumber: '97-08-050',
-            certDate: '2023-04-01',
+            cate: '인증서',
+            certTtitle: '제품인증서',
+            imgUrl: `${upperPath}images/20230411_1.png`,
+            certNumber: '...',
+            certDate: '2010-07-01',
             isView: false
         },
         {
             certIndex: 1,
-            cate: '안전인증',
-            certTtitle: '하수도용 콘크리트 맨홀 블록',
-            imgUrl: `${upperPath}images/cert_sample_01.jpg`,
-            certNumber: 'KS F 4012',
-            certDate: '2023-04-01',
+            cate: '인증서',
+            certTtitle: '한국산업규격 인증서',
+            imgUrl: `${upperPath}images/20230411_2.png`,
+            certNumber: '...',
+            certDate: '2006-03-16',
             isView: false
         },
         {
             certIndex: 2,
-            cate: '환경인증',
-            certTtitle: '하수도용 콘크리트 맨홀 블록',
-            imgUrl: `${upperPath}images/cert_sample_01.jpg`,
-            certNumber: 'KS F 4012',
-            certDate: '2023-04-01',
+            cate: '유망중소기업',
+            certTtitle: '유망중소기업 지정서',
+            imgUrl: `${upperPath}images/20230411_3.png`,
+            certNumber: '11-55',
+            certDate: '2011-06-01',
             isView: false
         },
         {
             certIndex: 3,
             cate: '기타',
-            certTtitle: '하수도용 콘크리트 맨홀 블록',
-            imgUrl: `${upperPath}images/cert_sample_01.jpg`,
-            certNumber: 'KS F 4012',
-            certDate: '2023-04-01',
+            certTtitle: '특허증',
+            imgUrl: `${upperPath}images/20230411_4.png`,
+            certNumber: '10-0750565',
+            certDate: '2007-05-13',
+            isView: false
+        },
+        {
+            certIndex: 4,
+            cate: '기타',
+            certTtitle: '특허증',
+            imgUrl: `${upperPath}images/20230411_5.png`,
+            certNumber: '10-0694841',
+            certDate: '2007-04-07',
+            isView: false
+        },
+        {
+            certIndex: 5,
+            cate: '등록증',
+            certTtitle: '디자인등록증',
+            imgUrl: `${upperPath}images/20230411_6.png`,
+            certNumber: '30-0442843',
+            certDate: '2007-03-05',
             isView: false
         }
     ])
@@ -164,49 +182,49 @@ export const useIntrosStore = defineStore('intros', () => {
         {
             indexs: 0,
             compName: [
-                {compFirst: '주식회사', compLast: '소나무정보기술'}
+                {compFirst: '(주)', compLast: '삼화기업'}
             ],
             sectionTitle: '본사',
-            tel: '+82-51-714-1234',
-            fax: '+82-31-920-6609',
-            mail: 'support@pineit.co.kr',
-            locate: '부산광역시 부산진구 엄광로 176, 331호 (동의대학교 산학협력단)',
+            tel: '+82-61-755-6848',
+            fax: '+82-61-755-6849',
+            mail: '-',
+            locate: '전남 순천시 서면 구랑실재길 133 (구상리 245)',
             publicTr: [
                 { 
                     subway: [
-                        { subwItem: '신평 방면 승차 / 서면역에서 2호선(호포방면)으로 환승 / 동의대역 하차 / 동의대 순환버스' }
+                        { subwItem: '-' }
                     ], 
                     bus: [
-                        { busItem: '가야로,서면 방면 승차 / 가야파출소 앞 하차 / 동의대 순환버스' },
-                        { busItem: '59,61번(가야로방면)승차 / 가야파출소 앞 하차 / 동의대순환버스' }
+                        { busItem: '신천지파크랜드방면 마륜 하차 / 도보 약 15분 ' },
+                        { busItem: '구상마을입구방면 마륜 하차 / 도보 약 15분' }
                     ]  
                 }
             ],
-            mapUrl: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3262.609751841863!2d129.03134551610918!3d35.1414109803238!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3568ebb40a6cf031%3A0xf255b7423a881690!2zKOyjvCnshozrgpjrrLTsoJXrs7TquLDsiKA!5e0!3m2!1sko!2skr!4v1679979882979!5m2!1sko!2skr',
+            mapUrl: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3268.5487607409304!2d127.5431871763837!3d34.99296587281716!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x356e11fd80d0dbc9%3A0x7c83115ce2a28e76!2z7IK87ZmU6riw7JeF!5e0!3m2!1sko!2skr!4v1681198673035!5m2!1sko!2skr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade',
         },
-        {
-            indexs: 1,
-            compName: [
-                {compFirst: '주식회사', compLast: '소나무정보기술'}
-            ],
-            sectionTitle: '개발센터',
-            tel: '+82-51-714-0034',
-            fax: '+82-31-920-6609',
-            mail: 'support@pineit.co.kr',
-            locate: '부산광역시 사상구 대동로 303 부산디지털밸리 1203호 (동의대학교 산학협력단)',
-            publicTr: [
-                { 
-                    subway: [
-                        { subwItem: '신평 방면 승차 / 서면역에서 2호선(호포방면)으로 환승 / 동의대역 하차 / 동의대 순환버스' }
-                    ], 
-                    bus: [
-                        { busItem: '가야로,서면 방면 승차 / 가야파출소 앞 하차 / 동의대 순환버스' },
-                        { busItem: '59,61번(가야로방면)승차 / 가야파출소 앞 하차 / 동의대순환버스' }
-                    ]  
-                }
-            ],
-            mapUrl: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3262.609751841863!2d129.03134551610918!3d35.1414109803238!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3568ebb40a6cf031%3A0xf255b7423a881690!2zKOyjvCnshozrgpjrrLTsoJXrs7TquLDsiKA!5e0!3m2!1sko!2skr!4v1679979882979!5m2!1sko!2skr',
-        },
+        // {
+        //     indexs: 1,
+        //     compName: [
+        //         {compFirst: '주식회사', compLast: '소나무정보기술'}
+        //     ],
+        //     sectionTitle: '개발센터',
+        //     tel: '+82-51-714-0034',
+        //     fax: '+82-31-920-6609',
+        //     mail: 'support@pineit.co.kr',
+        //     locate: '부산광역시 사상구 대동로 303 부산디지털밸리 1203호 (동의대학교 산학협력단)',
+        //     publicTr: [
+        //         { 
+        //             subway: [
+        //                 { subwItem: '신평 방면 승차 / 서면역에서 2호선(호포방면)으로 환승 / 동의대역 하차 / 동의대 순환버스' }
+        //             ], 
+        //             bus: [
+        //                 { busItem: '가야로,서면 방면 승차 / 가야파출소 앞 하차 / 동의대 순환버스' },
+        //                 { busItem: '59,61번(가야로방면)승차 / 가야파출소 앞 하차 / 동의대순환버스' }
+        //             ]  
+        //         }
+        //     ],
+        //     mapUrl: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3262.609751841863!2d129.03134551610918!3d35.1414109803238!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3568ebb40a6cf031%3A0xf255b7423a881690!2zKOyjvCnshozrgpjrrLTsoJXrs7TquLDsiKA!5e0!3m2!1sko!2skr!4v1679979882979!5m2!1sko!2skr',
+        // },
     ])
 
 

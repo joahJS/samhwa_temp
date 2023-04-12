@@ -28,9 +28,9 @@ export const useDatasStore = defineStore('datas', () => {
             bindIndex:'0',
             number: '1',
             title: '카달로그',
-            date: '2021.12.03',
+            date: '2023.03.27',
             thumImg: '',
-            texts: 'XX콘크리트 카달로그 아래 파일을 클릭 후 다운로드 해주시길 바랍니다.',
+            texts: '삼화기업 카달로그 아래 파일을 클릭 후 다운로드 해주시길 바랍니다.',
             uploaded: [
                 {fileName:`${upperPath}/catalog/catalog1.pdf`, name:'카달로그.pdf'}
             ]

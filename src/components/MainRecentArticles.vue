@@ -87,7 +87,7 @@ const { newsList } = storeToRefs(newsStore)
     }
 
     .recent-article-list {
-        border-block: 1px solid rgba(var(--black), .15);
+        border-top: 1px solid rgba(var(--black), .15);
     }
 
     .recent-article-item {
@@ -97,6 +97,7 @@ const { newsList } = storeToRefs(newsStore)
         gap: 15px;
         padding: 20px 8px;
         transition: background-color .15s;
+        border-bottom: 1px solid rgba(var(--black), .15);
 
         & + & {
             border-block-start: 1px solid rgba(var(--black), .15);
