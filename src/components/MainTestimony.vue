@@ -45,7 +45,7 @@
         },
         breakpoints: {
             768: {
-                slidesPerView: 2,
+                slidesPerView: 2.5,
                 spaceBetween: 10
             },
             1280: {
@@ -154,7 +154,6 @@
 
     .testimony-picture {
         object-fit: cover;
-        aspect-ratio: 5/2.2;
     }
 
     .testimony-user {

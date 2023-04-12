@@ -7,7 +7,8 @@
                     SAMHWA </router-link>
             </h1>
 
-            <div id="totalSearchbar">
+            <!-- 검색기능
+                <div id="totalSearchbar">
                 <input data-total-search-input type="text" placeholder="Search...">
                 <router-link to="/search">
                     <button type="button" data-total-search-button>
@@ -15,7 +16,7 @@
                     </button>
                 </router-link>
                 
-            </div>
+            </div> -->
             
             <nav id="navPrimary" class="flex items-center gap-2">
                 <ul class="nav-list">
